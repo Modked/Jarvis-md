@@ -39,7 +39,7 @@ module.exports = {
   API: 'https://api-loki-ser-1o2h.onrender.com/',
   STICKER_PACKNAME: process.env.STICKER_PACKNAME || 'ᴊᴀʀᴠɪꜱ;ᴡᴀʙᴏᴛ',
   CALL_BLOCK: toBool(process.env.CALL_BLOCK) || false,
-  SAVE_STATUS: toBool(process.env.SAVE_STATUS) || false,
+  SAVE_STATUS: toBool(process.env.SAVE_STATUS) || true,
   STATUS_VIEW: process.env.STATUS_VIEW || "true",
   REJECT_CALL: toBool(process.env.REJECT_CALL || "true"),
   ERROR_MSG: toBool(process.env.ERROR_MSG) || true,
